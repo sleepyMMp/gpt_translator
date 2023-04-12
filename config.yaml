@@ -1,9 +1,9 @@
 data_path: ./data/
-model_path: ./checkpoints/
-tokenizer_path: str = ''
+model_path: facebook/opt-1.3b
+tokenizer_path: facebook/opt-1.3b
 
 
 output_dir: ./
 num_train_epochs: 200
-total_batch_size: 16
-mini_batch_size: 8
+total_batch_size: 8
+
